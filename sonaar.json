@@ -21,7 +21,7 @@
 		},
 		"volumes": {
                     	"/config": {
-                        "description": "Where the config files are stored ex. sonaar-config.,
+                        "description": "Where the config files are stored ex. sonaar-config.",
                         "label": "Config Storage"
                 	},
                     	"/tv": {

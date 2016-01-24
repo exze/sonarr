@@ -12,7 +12,7 @@
 		"launch_order": 1,
 		"ports": {
 		    "9091": {
-			"description": "Discourse webserver/forum port. You may need to open it(protocol: tcp) on your firewall. Suggested default: 8080",
+			"description": "Sonaar webserver port.",
 			"host_default": 9091,
 			"label": "Sonar port",
 			"protocol": "tcp",

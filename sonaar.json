@@ -20,15 +20,13 @@
 		    }
 		},
 		"volumes": {
-                    "/config: {
-                        "description": Where the config files are stored ex. "sonnar-config.",
-                        "label": "Config"
-                    }
-                },
-                {
-                    "/tv: {
+                    	"/config": {
+                        "description": "Where the config files are stored ex. "sonnar-config.",
+                        "label": "Config Storage"
+                	},
+                    	"/tv": {
                         "description": "Where the tvseries are stored.",
-                        "label": "Tvseries"
+                        "label": "Tvseries location"
                     }
                 },
                 {
@@ -36,4 +34,5 @@
                         "description": "Where the download client stores the files.",
                         "label": "Downloads"
                     }
-                },
+                }
+	},        

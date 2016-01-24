@@ -1,0 +1,39 @@
+{
+    "Sonaar": {
+	"description": "Smart PVR for newsgroup and bittorrent users",
+	"ui": {
+	    "slug": ""
+	},
+	"website": "https://sonarr.tv/",
+	"version": "1.0",
+	"containers": {
+	    "sonaar": {
+		"image": "linuxserver/sonarr",
+		"launch_order": 1,
+		"ports": {
+		    "9091": {
+			"description": "Discourse webserver/forum port. You may need to open it(protocol: tcp) on your firewall. Suggested default: 8080",
+			"host_default": 9091,
+			"label": "Sonar port",
+			"protocol": "tcp",
+			"ui": true
+		    }
+		},
+		"volumes": {
+                    "/config: {
+                        "description": Where the config files are stored ex. "sonnar-config.",
+                        "label": "Config"
+                    }
+                },
+                {
+                    "/tv: {
+                        "description": "Where the tvseries are stored.",
+                        "label": "Tvseries"
+                    }
+                },
+                {
+                    "/downloads: {
+                        "description": "Where the download client stores the files.",
+                        "label": "Downloads"
+                    }
+                },

@@ -33,4 +33,16 @@
                         "label": "Downloads"
                     	},
                 }
+		"environment": {
+                    	"APP_UID": {
+                        	"description": "Enter a valid UID of an existing user with permission to media shares to run Sonaar as.",
+                        	"label": "UID to run Sonaar Server as.",
+                        	"index": 1
+                    },
+                    	"APP_GID": {
+                        	"description": "Enter a valid GID of an exisiting user with permission to media shares to run Sonaar as.",
+                        	"label": "GID to run Sonaar Server as.",
+                        	"index": 2
+                    }
+                }
 	},        
